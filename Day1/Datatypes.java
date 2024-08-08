@@ -13,6 +13,7 @@ public class Datatypes{
 		
 		boolean b=true;
 
+		System.out.println(num1);
 	}
 
 }
