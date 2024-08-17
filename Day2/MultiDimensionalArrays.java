@@ -43,5 +43,7 @@ public class MultiDimensionalArrays {
         for (int[] is : arr1) {
             System.out.println(Arrays.toString(is));  // More optimised and best than traditional Method 
         }
+
+     in.close();
     }
 }
