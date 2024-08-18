@@ -8,7 +8,7 @@
     // worst Case  - o(n) => N size of Array 
         
     int nums [] = {1,3,8,9,4,21,32,43};
-    int target = 21;
+    int target = 8;
 
     int ans = linear(nums, target);
 
