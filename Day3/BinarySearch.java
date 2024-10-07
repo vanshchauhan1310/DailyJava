@@ -1,13 +1,24 @@
 package Day3;
 
+
+// In java we have binary Search package alredy in util Package 
+// For Sorting we will use Sort the array with sort package in util Package
+
+import java.util.*;
+
+
+
 public class BinarySearch {
     public static void main(String[] args) {
 
     int nums [] = {1,5,7,8,9};
     int target = 8;
-    int result = Binary(nums, target);
-    System.out.println(result);
+    // int output = Arrays.BinarySearch(nums,target);
+    int output = Arrays.binarySearch(nums, target);
 
+    int result = Binary(nums, target);
+    // System.out.println(result);
+    System.out.println(output);
     }
 
 
