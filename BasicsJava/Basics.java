@@ -7,7 +7,6 @@ public class Basics {
     // When you perform operations that seem to modify a string, you're actually creating a new String object.
     // Memory usage: Each string operation that appears to modify the string actually creates a new String object.
     // Performance: For many string manipulations, this can be inefficient.
-
     
     // study about STRING BUILDER 
     
